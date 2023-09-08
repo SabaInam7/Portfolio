@@ -1,10 +1,10 @@
 :root {
-  --leftRight:rgb(160, 142, 224);
+  --leftRight: rgb(160, 142, 224);
 }
 body {
   align-items: center;
   background-color: rgb(160, 142, 224);
-  color: rgb(105, 77, 206);;
+  color: rgb(105, 77, 206);
 }
 .main {
   align-items: center;
@@ -27,6 +27,7 @@ body {
 }
 
 .left {
+  margin: 10px;
   animation: slide-in-left 0.5s ease-out;
   background-color: var(--leftRight);
   border: 2px solid rgb(179, 145, 230);
@@ -34,14 +35,17 @@ body {
   width: 500px;
   color: azure;
   text-align: center;
+  box-shadow: 5px 5px 10px rgb(152, 32, 163);
 }
 .right {
+  margin: 10px;
   animation: slide-in-right 0.5s ease-out both;
   background-color: var(--leftRight);
-  border: 2px solid rgb(179,145,230);
+  border: 2px solid rgb(179, 145, 230);
   height: 300px;
   width: 500px;
   text-align: center;
+  box-shadow: 5px 5px 10px rgb(152, 32, 163);
 }
 
 /* Apply styling to the list items within the "right" class */
@@ -81,6 +85,10 @@ a {
   height: 145px;
 }
 
+.left.Education {
+  height: 300px;
+  width: 300px;
+}
 /* ----------------------------------------------
 
 /**
@@ -145,8 +153,11 @@ a {
 
 @media all and (max-width: 470px) {
   .main {
+    
     flex-direction: column;
     align-items: center;
-    padding: auto;
+    height: fit-content;
+    /* /padding: auto; */
   }
+ 
 }
