@@ -229,7 +229,7 @@ a {
     align-items: stretch;
     flex-wrap: wrap;
     height: 400px;
-    background-color: red;
+    /* background-color: red; */
     width: 600px;
     margin: 50px;
   }
@@ -250,7 +250,7 @@ a {
     /* height: 100px; */
     width: 150px;
     font-size: 14px;
-    background-color: blue;
+    /* background-color: blue; */
   }
 
   .left.Education {
@@ -259,6 +259,6 @@ a {
     /* height: 100px; */
     width: 150px;
     font-size: 14px;
-    background-color: blue;
+    /* background-color: blue; */
   }
 }
